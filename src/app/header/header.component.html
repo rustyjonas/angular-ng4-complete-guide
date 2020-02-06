@@ -9,8 +9,8 @@
                 <li><a href="#" (click)="onSelect('recipe', $event)">Recipes</a></li>
                 <li><a href="#" (click)="onSelect('shopping-list')">Shopping list</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-light">
-                <li class="dropdown">
+            <a class="nav navbar-nav navbar-light">
+                <li class="dropdown" appDropdown>
                     <a href="" class="dropdown-toggle" role="button">Manage</a>
                     <ul class="dropdown-menu">
                         <li><a href="">Save Data</a></li>
@@ -18,7 +18,7 @@
 
                     </ul>
                 </li>
-            </ul>
+            </a>
         </div>
     </div>
 </nav>
